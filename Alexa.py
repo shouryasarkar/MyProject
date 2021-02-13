@@ -57,7 +57,7 @@ def run_alexa():
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk('Current time is ' + time)
     
-    """ Random interactions """
+    # Random interactions
     elif 'joke' in command:
         talk(pyjokes.get_joke())
         
